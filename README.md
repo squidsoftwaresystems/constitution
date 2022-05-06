@@ -10,7 +10,7 @@ Het doel is om de truck capaciteit zo effectief mogelijk te benutten.
 
 In andere woorden: Het doel is om zoveel mogelijk beladen ritten uit te voeren in de beschikbare tijd, zonder dat er regels worden overtreden.
 
-## De regels
+## De regels van de dagplanning
 
 ### Trip regels
 
@@ -82,3 +82,25 @@ __Note:__ Tijdvensters op klantlocaties zijn standaard 15 minuten voor tot 15 mi
 __Note__: Bovenstaande geldt voor zeehavenritten
 __Note__: Bij ECT mogen uitgaande containers zonder documenten worden ingeleverd
 __Note__: Bij regioritten wordt er door de klant gecommuniceerd wanneer een container opgehaald kan worden
+
+* `Stackpositie`: De locatie in de stack bepaalt welke container als eerste vertrekt.
+
+## Dagopvolging
+
+Mogelijke veranderingen:
+
+* Vertraging/versnelling: Bij afhandelen of onderweg. Chauffeur geeft dit door via Whatsapp (kan via Data2Track automatisch gedetecteerd worden). Planner checkt of dit gevolgen heeft voor de opvolgende rit.
+
+* Nieuwe order: Lege containers worden op eigen initiatief van chauffeurs meegenomen. Customer Service (CS) neemt ad hoc orders aan in overleg met de planner.
+
+* Orderannulering: Klanten kunnen last minute orders annuleren, planners kunnen ze doorschuiven naar een andere dag.
+
+* Wijziging tijdvenster: Klant wil de container op een ander tijdstip.
+
+* Afkeuring container: Gasmeting is afgekeurd, documenten zijn niet orde, boeking onbekend bij de klant, ...
+
+* Verandering herkomst/bestemming rit: Container gaat niet rechtstreeks naar de klant maar eerst naar ITV/KAT/OSS.
+
+* Uitval vrachtwagen/chauffeur: Chauffeur is ziek of vrachtwagen stuk.
+
+* Chauffeur gaat over zijn rijtijd heen: Chauffeur meldt (verwachte) overschrijding.
