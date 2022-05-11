@@ -6,7 +6,7 @@ De regels van truckplanning.
 
 Elke dag moeten trips toegewezen worden aan trucks (die bestuurd worden door chauffeurs.
 
-Het doel is om de truck capaciteit zo effectief mogelijk te benutten.
+Het doel is om de vervoerscapaciteit van alle trucks zo effectief mogelijk te benutten.
 
 In andere woorden: Het doel is om zoveel mogelijk beladen ritten uit te voeren in de beschikbare tijd, zonder dat er regels worden overtreden.
 
@@ -14,7 +14,7 @@ In andere woorden: Het doel is om zoveel mogelijk beladen ritten uit te voeren i
 
 ### Trip regels
 
-Een trip is de verplaatsing van een truck tussen 2 of meer locaties.
+Een trip is de verplaatsing van een truck tussen 2 of meer locaties. Idealiter verplaatsen we ook een container, maar soms is niet het geval.
 
 Een trip dient te worden uitgevoerd:
 
@@ -25,14 +25,14 @@ Een trip dient te worden uitgevoerd:
 
 #### Truck regels
 
-Een vrachtwagen is geschikt wanneer:
+Een vrachtwagen is geschikt wanneer aan de volgende criteria wordt voldaan:
 
 * `Openbare weg`: Terminal trucks zijn niet toegestaan op de openbare weg en dus alleen geschikt voor trips binnen de grenzen van het industrieterrein.
 * `Slaapcabine`: Trips met een overnachting zijn alleen geschikt voor vrachtwagens met slaapcabine.
 * `Voorloopas`: ??
 * `Genset`: Trips met actieve reefer koeling zijn alleen geschikt wanneer de vrachtwagen een genset heeft.
-* `Standplaats`: Elke truck heeft een standplaats. Idealiter vertrekken en eindigen we op de standplaats.
-* `Euronorm`: Voor sommige locaties is een minimale euronorm vereist.
+* `Standplaats`: Elke truck heeft een standplaats. Een truck vertrekt en eindigt op zijn standplaats.
+* `Euronorm`: Op sommige locaties moet de motor van de truck voldoen aan een minimale euronorm.
 * `Beschikbaar`: Trucks in onderhoud zijn niet beschikbaar.
 
 #### Chassis regels
@@ -104,3 +104,41 @@ Mogelijke veranderingen:
 * Uitval vrachtwagen/chauffeur: Chauffeur is ziek of vrachtwagen stuk.
 
 * Chauffeur gaat over zijn rijtijd heen: Chauffeur meldt (verwachte) overschrijding.
+
+
+## Taken
+
+Belangrijkste taken planner.
+
+1. Is er voldoende capaciteit beschikbaar?
+
+Maak een planning en verhelp knelpunten:
+
+* Werktijden chauffeurs
+* Tijdsvensters/levertijden bij de klant/zeehaven
+* Directe zeehavenritten via de terminal laten lopen
+* Herverdelen capaciteit regio/zeehaven/terminal
+* Bijschakelen charters + externe chauffeurs
+
+Vraag: Hoeveel restcapaciteit is noodzakelijk?
+
+2. Ben ik in controle?
+
+* Chauffeurs op tijd begonnen aan eerte ritten?
+* Zijn er vertragingen of versnellingen?
+* Zijn er problemen met boekingen?
+* Zijn er nieuwe orders of annuleringen?
+* Zijn er wijzigingen in tijdsslots?
+
+3. Kan het efficienter?
+
+* Verwacht ik lege containers mee te kunnen nemen?
+* Kan ik zeehavenritten combineren met voorwerk?
+* Kan ik ritten overnemen uit de bargeplanning?
+* Kan ik voorwerk doen voor de rest van de week?
+* Zijn er transferritten?
+
+4. Doet iedereen wat hij moet doen?
+
+* Juiste chauffeur op de juiste ritten?
+* Staat er niemand te wachten?
