@@ -155,3 +155,10 @@ De belangrijkste constraints waar de Squid planner mee moet rekenen:
 * Chauffeurs hebben voorkeuren: zeehaven/regio/terminalwerk, overnachtingen, overwerk, ...
 * Chauffeurs hebben restricties: rijtijdenwet, LZV, gevaarlijke goederen, ...
 * Chauffeurs hebben kwaliteiten: snelheid omkoppelen, ...
+
+## Uitdagingen
+
+* De truckendoos modelleren, bijvoorbeeld: 1 chauffeur met 2 auto's
+* Vooruitkijken naar de rest van de week voor het combinaties en het uitvoeren van voorwerk
+* Communicatie met barge/terminalplanning
+* Omgaan met continue verandering
