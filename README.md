@@ -1,10 +1,10 @@
-# Constitution
+# Spelregels truckplanning
 
 De regels van truckplanning.
 
-## Truckplanning
+## Doel truckplanning
 
-Elke dag moeten trips toegewezen worden aan trucks (die bestuurd worden door chauffeurs.
+Elke dag moeten trips toegewezen worden aan trucks (die bestuurd worden door chauffeurs).
 
 Het doel is om de vervoerscapaciteit van alle trucks zo effectief mogelijk te benutten.
 
