@@ -142,3 +142,16 @@ Vraag: Hoeveel restcapaciteit is noodzakelijk?
 
 * Juiste chauffeur op de juiste ritten?
 * Staat er niemand te wachten?
+
+## Constraints
+
+De belangrijkste constraints waar de Squid planner mee moet rekenen:
+
+* Alle ritten hebben tijdvensters, ritten dienen _zoveel als mogelijk_ te worden uitgevoerd binnen die tijdvensters
+* Er is afhankelijkheid tussen ritten, het uitvoeren van een bepaalde rit limiteert de mogelijke vervolgritten
+* Ritten van en naar terminals (zeehaven/inland) kunnen gecombineerd worden door meerdere containers op 1 chassis te plaatsen
+* Containers kunnen op meerdere inlandterminals worden ingeleverd
+* Auto's hebben restricties: gebiedstoegang, gewicht, standplaats,...
+* Chauffeurs hebben voorkeuren: zeehaven/regio/terminalwerk, overnachtingen, overwerk, ...
+* Chauffeurs hebben restricties: rijtijdenwet, LZV, gevaarlijke goederen, ...
+* Chauffeurs hebben kwaliteiten: snelheid omkoppelen, ...
