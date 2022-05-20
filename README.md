@@ -27,6 +27,7 @@ Algemene stelregels:
 
 * Wanneer capaciteit in de knel komt gaat regiowerk voor zeehavenwerk
 * Vertraging veroorzaakt bij een klant moet zo min mogelijk effect hebben op andere klanten
+* Charters gaan niet naar de klant
 
 #### Ritten
 
@@ -110,7 +111,7 @@ Een chauffeur is geschikt wanneer:
 * `Locatievoorkeuren`: Chauffeur geeft de voorkeur aan zeehaven, regio, of lokaal werk. Ook dit is een %, zie je met name bij zeehaven/regiowerk.
 * `Locatievereisten`: Chauffeur heeft toegangspas mee of klant wil specifieke chauffeur. Bij Bavaria hebben we een aantal jaarpassen voor specifieke chauffeurs, andere chauffeurs moeten zich aanmelden, maar dit is niet echt een "vereiste", aanmelden kan ook. Vroeger waren er ook wel chauffeurs die altijd naar dezelfde klant reden, maar dat komt niet echt meer voor.
 * `Handlingsvoorkeuren`: Chauffeur kan/wil snel omkoppelen of geeft de voorkeur aan live handling. Dit deels voorkeur, deels handigheid, en deels lichamelijke conditie.
-* `Rijtijdenwet`: Chauffeur heeft voldoende werkuren beschikbaar. Soft limiet, in bijzondere gevallen mogen rijtijden overschreden worden (artikel 12), maar dat is echt voor incidenten, daar wordt niet mee gepland. De chauffeur is in principe de hoofdverantwoordelijke.
+* `Rijtijdenwet`: Chauffeur heeft voldoende werkuren beschikbaar. Soft limiet, in bijzondere gevallen mogen rijtijden overschreden worden (artikel 12), maar dat is echt voor incidenten, daar wordt niet mee gepland. De chauffeur is in principe de hoofdverantwoordelijke. Rijtijden zijn echter een complexere puzzel dan op het eerste gezicht lijkt, vandaag een chauffeur laten overwerken betekent dat hij morgen pas later kan beginnen vanwege het verplichte aantal rusturen!
 * `Werktijden`: Een rit moet worden uitgevoerd binnen de werktijden van een chauffeur.
 * `Overwerken`: Chauffeur wil wel/niet overwerken. Zeehavenchauffeurs worden ook wel "elitechauffeurs" genoemd, dit zijn de chauffeurs die veel willen werken en het liefst hun toegestane rijtijd maximaal oprijden. Hier moet je voorzichtig mee zijn, de dagopvolging houdt echt bij wie er aan de beurt is en weet welke chauffeurs je niet hoeft te vragen. Al het overwerk <1 uur noemen we geen overwerk. Vanaf 17:00 is het afschrijftijd, dus als je een chauffeur na 16:30 nog wegstuurt dan weet je dat het overwerk wordt (hij is dan pas na 18:00 terug).
 * `Standplaats`: Chauffeurs werken vanaf een vaste locatie.
