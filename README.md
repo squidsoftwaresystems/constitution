@@ -40,11 +40,17 @@ Een rit mag worden uitgevoerd wanneer:
   4. Closing bij de zeehaven of VBL terminal (wanneer de container dezelfde dag nog op het schip geladen moet worden)
 
 __Note:__ Er wordt in principe niet gestuurd op deze tijdsvensters, maar op max. departure.
+
 __Note:__ Bij containers die geladen/gelost worden terwijl de chauffeur wacht (live handling) zijn 2 & 3 hetzelfde tijdsvenster.
+
 __Note:__ Bij afgekoppelde containers (import/export) is de afgesproken lostijd (2) leidend, naar aankoppelen (3) wordt niet gekeken. Elke dag vindt er een check plaats om te kijken wat er nog buiten de deur staat. Dit wordt opgehaald wanneer de klant meldt dat de container leeg is, wanneer een chauffeur een nieuwe container komt brengen (volume klanten) of op basis van rangorde (wat staat het langst buiten). Voor kritische export containers wordt wel rekening gehouden met de aankoppeltijd (3), de klant meldt dan wanneer de container klaar staat.
+
 __Note:__ Pickup/closing kan in de het verleden (pickup) of de toekomst (closing) liggen *of* een tijdstip op de dag van uitvoering zijn wanneer een container nog gelost of geladen moet worden van het binnenvaartschip (dit komt echter minimaal voor).
+
 __Note:__ Closing kan vervallen wanneer er een container uit eigen voorraad gebruikt wordt, of wanneer er een container wordt doorgebruikt. CS beheert dit proces. Equipment houdt de voorraad in de gaten.
+
 __Note:__ Tijdvensters voor zeeterminals zijn standaard 00:00 - 23:59 (24/7). Voor RWG geldt dat een container moet worden aagnemeld voor een specifiek tijdvenster. Voor VBL terminals geldt voor externen dat de terminals open zijn van 06:00 - 19:00. Nachtchauffeurs koppelen zelf hun chassis om of zetten in een enkel geval zelf containers in de stack met een reachstacker.
+
 __Note:__ Tijdvensters op klantlocaties zijn standaard 15 minuten voor tot 15 minuten na de afgesproken laad/los tijd. Sommige klanten hebben een groot tijdvenster, maar willen de containers wel een brokken, bijvoorbeeld: elk uur 2.
 
 Voor het uithalen van import zeecontainers geldt:
