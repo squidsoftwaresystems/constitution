@@ -58,6 +58,7 @@ Voor het wegbrengen van export zeecontainers geldt:__
 *	__Order bekend:__ Wanneer de order en container bij de locatie is voorgemeld
 *	__Geblokkeerd:__ Wanneer de container niet geblokkeerd staat
 *	__FYCO:__ Wanneer de container niet is vastgezet voor een fysieke controle van de douane
+* __Gewicht:__ Volle export containers hebben prioriteit over lege export containers
 
 __Let op:__ Bij ECT mogen uitgaande containers zonder documenten worden ingeleverd.
 
