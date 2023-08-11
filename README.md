@@ -81,11 +81,9 @@ De belangrijkste afspraken met klanten (en andere locaties als zeehaventerminals
 
 __Tijdvenster:__ Elke rit moet binnen het afgesproken tijdvenster op de afgesproken locatie zijn.
 
-Voor import zeehavenritten geldt er een pickup window waarbinnen de container opgehaald moet worden.
-
-Bij de klant geldt er een laad/lostijdstip waarop de container geleverd moet worden. Dit is ongedefinieerd tijdsvenster, de standaard acceptabele afwijking is 15 minuten. Per klant kan de grootte van dit tijdsvenster verschillen.
-
-Voor export zeehavenritten geldt er een cargo window waarbinnen de container geleverd moet worden.
+* Voor import zeehavenritten geldt er een pickup window waarbinnen de container opgehaald moet worden.
+* Bij de klant geldt er een laad/lostijdstip waarop de container geleverd moet worden. Dit is ongedefinieerd tijdsvenster, de standaard acceptabele afwijking is 15 minuten. Per klant kan de grootte van dit tijdsvenster verschillen.
+* Voor export zeehavenritten geldt er een cargo window waarbinnen de container geleverd moet worden.
 
 __Let op:__ Wanneer er geen tijd, maar wel een datum is gedefinieerd gelden de openingstijden van de locatie als tijdsvenster. Een belangrijke uitzondering hier zijn klanten die bijvoorbeeld elk uur 1 container willen.
 
@@ -156,9 +154,11 @@ In het geval van CTT zijn er een aantal extra chassis types:
 *	__Kieper:__ Een kiep-chassis wordt gebruikt voor bulklading.
 *	__Sideloader:__ Een sideloader is een chassis met een kraan, hiermee kan een container worden op/afgezet bij elke klantlocatie.
 *	__Vlak:__ Een vlak chassis is niet uitschuifbaar en alleen geschikt voor 40-voet containers of een 20-voet container van minder dan 5 ton.
-*	__Gooseneck:__ Een gooseneck is niet uitschuifbaar, en geschikt voor zowel 40- als 45-voet containers als 20-voet containers tot 5 ton.
+*	__Gooseneck:__ Een gooseneck is niet uitschuifbaar, en geschikt voor zowel 40-voet container als 20-voet containers tot 5 ton (geen 45-voet!).
 *	__Schuiver:__ Een standaardchassis met uitschuifbare kont, geschikt voor alle maten containers.
 *	__Combi:__ Een combi-chassis is een klein chassis geschikt voor een 20-voet container.
+
+__Let op:__ Speciale chassis hebben vaak een vaste chauffeur. In principe worden ze ook niet gebruikt om om te koppelen.
 
 __Standplaats:__ Chassis hebben geen standplaats, maar over het algemeen worden containers opgehaald door een truck met dezelfde standplaats als de truck die de container initieel heeft afgezet. Op die manier blijft de voorraad chassis natuurlijk in balans.
 
