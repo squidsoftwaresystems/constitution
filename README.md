@@ -37,28 +37,28 @@ Wanneer de planner inschat dat de capaciteit onvoldoende is zijn er een aantal o
 
 #### 2.1	Algemene beslisregels
 
-Er zijn een aantal algemene beslisregels:__
+Er zijn een aantal algemene beslisregels:
 
-*	Wanneer capaciteit in de knel komt gaat regiowerk voor zeehavenwerk
+*	Wanneer capaciteit in de knel komt gaat regiowerk voor zeehavenwerk (mits er ruimte is in het pickup of cargo window)
 *	Vertraging veroorzaakt bij een klant moet zo min mogelijk effect hebben op andere klanten
 *	Charters gaan (bij voorkeur) niet naar de klant
 
 #### 2.2	Beslisregels met betrekking tot lading
 
-Voor het uithalen van import zeecontainers dat een rit kan alleen worden uitgevoerd:__
+Voor het uithalen of wegbrengen van zeecontainers gelden de volgende restricties:
 
-*	__Documenten:__ Wanneer douanedocumenten beschikbaar zijn
-*	__Order bekend:__ Wanneer de order en container bij de locatie bekend zijn
-*	__Fysiek aanwezig:__ Wanneer de container fy__siek aanwezig is
-*	__Vrijstelling:__ Wanneer de container is vrijgesteld door de rederij
+| Restrictie | Omschrijving | Import | Export |
+| --- | --- | --- | --- |
+| customs_cleared       | Douanedocumenten goedgekeurd               | x |   |
+| customs_doc_available | Douanedocumenten beschikbaar               |   | x |
+| correct_order_number  | Order bekend en voorgemeld op locatie      | x | x |
+| blocked               | Container niet geblokkeerd                 | x | x |
+| other_issue           | Ander probleem                             | x | x |
+| present               | Container fysiek aanwezig                  | x |   |
+| released              | Container vrijgesteld door de rederij      | x |   |
+| before_cargoopening   | Huidige tijdstip voor opening cargo window |   | x |
 
-Voor het wegbrengen van export zeecontainers geldt:__
-
-*	__Documenten:__ Wanneer douanedocumenten beschikbaar zijn
-*	__Order bekend:__ Wanneer de order en container bij de locatie is voorgemeld
-*	__Geblokkeerd:__ Wanneer de container niet geblokkeerd staat
-*	__FYCO:__ Wanneer de container niet is vastgezet voor een fysieke controle van de douane
-* __Gewicht:__ Volle export containers hebben prioriteit over lege export containers
+__Let op:__ Volle export containers hebben prioriteit over lege export containers.
 
 __Let op:__ Bij ECT mogen uitgaande containers zonder documenten worden ingeleverd.
 
@@ -103,7 +103,7 @@ Bij het servicetype omkoppelen ligt de focus op het uitrijden van volle containe
 
 __Toegangsrestricties:__
 *	Voor alle Maasvlakte terminals geldt dat alleen trucks met een Euro 6 of zero-emissie motor zijn toegestaan.
-*	Voor sommige locaties is een toegangspas of code vereist.
+*	Voor sommige locaties is een toegangspas, code of certificaat (met beperkte geldigheid) vereist.
 
 #### 2.4	Beslisregels met betrekking tot trucks
 Een truck is geschikt wanneer aan de volgende criteria wordt voldaan:
