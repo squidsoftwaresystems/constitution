@@ -6,7 +6,7 @@ De regels van truckplanning.
 
 Truckplanners zijn verantwoordelijk voor het aansturen van chauffeurs. Ze bewaken het deel van het containertransport dat door trucks wordt uitgevoerd.
 
-De kerntaken van een truckplanner zijn:__
+De kerntaken van een truckplanner zijn:
 1.	Het inschatting en organiseren van voldoende vervoerscapaciteit
 2.	Het toewijzen van ritten aan trucks, chauffeurs en ritten
 3.	Het monitoren en bijsturen van de uitvoering
@@ -25,7 +25,7 @@ De beschikbare vervoerscapaciteit wordt bepaald door het aantal beschikbare chau
 
 De tijdsvensters en levertijden bij klanten en terminals bepalen hoeveel capaciteit er op een bepaald moment van de dag nodig is.
 
-Wanneer de planner inschat dat de capaciteit onvoldoende is zijn er een aantal opties:__
+Wanneer de planner inschat dat de capaciteit onvoldoende is zijn er een aantal opties:
 
 *	Werktijden chauffeurs aanpassen
 *	Tijdvensters/levertijden bij de klant/zeehaven aanpassen
