@@ -8,7 +8,7 @@ Truckplanners zijn verantwoordelijk voor het aansturen van chauffeurs. Ze bewake
 
 De kerntaken van een truckplanner zijn:
 1.	Het inschatting en organiseren van voldoende vervoerscapaciteit
-2.	Het toewijzen van ritten aan trucks, chauffeurs en ritten
+2.	Het toewijzen van ritten aan trucks, chauffeurs en chassis
 3.	Het monitoren en bijsturen van de uitvoering
 
 Het doel van dit takenpakket is om de vervoerscapaciteit van alle trucks zo effectief mogelijk te benutten.
